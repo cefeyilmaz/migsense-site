@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destek - MigSense</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #277C7A 0%, #1B5957 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: #277C7A;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95em;
+            margin-bottom: 32px;
+        }
+
+        .back-link:hover { opacity: 0.75; }
+
+        h1 {
+            color: #1A1A1A;
+            font-size: 2.2em;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            color: #999;
+            font-size: 0.95em;
+            margin-bottom: 36px;
+        }
+
+        h2 {
+            color: #277C7A;
+            font-size: 1.1em;
+            font-weight: 700;
+            margin: 28px 0 10px;
+        }
+
+        .faq-item { margin-bottom: 22px; }
+
+        .faq-question {
+            font-weight: 700;
+            color: #1A1A1A;
+            margin-bottom: 6px;
+            font-size: 1.02em;
+        }
+
+        p, li { color: #555; font-size: 1em; line-height: 1.7; margin-bottom: 10px; }
+
+        ul { padding-left: 20px; margin-bottom: 10px; }
+
+        .divider { height: 1px; background: #eee; margin: 36px 0; }
+
+        .contact-box {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact-box a {
+            display: inline-block;
+            margin-top: 10px;
+            color: white;
+            background: #277C7A;
+            text-decoration: none;
+            padding: 12px 28px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        .footer { color: #999; font-size: 0.9em; text-align: center; margin-top: 40px; }
+
+        @media (max-width: 600px) {
+            .container { padding: 40px 25px; }
+            h1 { font-size: 1.8em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← MigSense'e Dön</a>
+
+        <h1>💬 Destek</h1>
+        <p class="subtitle">Sık sorulan sorular ve bize ulaşma yolları</p>
+
+        <div class="divider"></div>
+
+        <h2>Sık Sorulan Sorular</h2>
+
+        <div class="faq-item">
+            <p class="faq-question">MigSense'i kullanmak için hesap oluşturmam gerekiyor mu?</p>
+            <p>Hayır. MigSense'i indirdiğiniz anda kullanmaya başlayabilirsiniz; e-posta veya şifre girmenize gerek yoktur. Verileriniz doğrudan cihazınızda saklanır.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Verilerim nerede saklanıyor?</p>
+            <p>Tüm atak, semptom, tetikleyici ve ilaç kayıtlarınız cihazınızda tutulur. Ayarlar'dan iCloud senkronizasyonunu açarsanız bu veriler yalnızca sizin kendi özel iCloud hesabınızda, cihazlarınız arasında senkronize olur.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Yapay zeka özellikleri verilerimi dışarı mı gönderiyor?</p>
+            <p>Yapay zeka içgörü, sohbet veya erken uyarı gibi bir özelliği kullanırsanız, kayıtlarınızın kimliği belirsizleştirilmiş bir özeti (isminiz veya ham sağlık verileriniz olmadan) analiz için işlenir. Bu, yalnızca siz özelliği kullandığınızda gerçekleşir. Detaylar için <a href="privacy-policy.html" style="color:#277C7A;font-weight:600;">Gizlilik Politikası</a>'na bakın.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Apple Health entegrasyonu nasıl çalışır?</p>
+            <p>İzin verirseniz MigSense, atak zamanlarınızla ilişkilendirmek için uyku, kalp atış hızı, HRV ve benzeri verileri Apple Health'ten okuyabilir; kaydettiğiniz atakları da isterseniz Apple Health'e yazabilir. Bu izinleri istediğiniz zaman iOS Ayarlar &gt; Gizlilik ve Güvenlik &gt; Sağlık bölümünden değiştirebilirsiniz.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Konum izni neden isteniyor?</p>
+            <p>Yalnızca atak anındaki hava durumu ve barometrik basınç bilgisini gösterebilmek için, uygulamayı kullanırken konumunuz kullanılır. Arka planda konum takibi yapılmaz.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Sesli anlatım özelliğinde konuşmam kaydediliyor mu?</p>
+            <p>Hayır. Sesiniz cihazınızdan hiçbir zaman çıkmaz; konuşmanız cihaz üzerinde (on-device) yazıya çevrilir ve yalnızca ortaya çıkan metin, siz "analiz et" dediğinizde işlenir.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Verilerimi nasıl silerim?</p>
+            <p>Ayarlar &gt; Gizlilik &gt; "Verilerimi Sil" yolunu izleyin. Adım adım bilgi için <a href="data-deletion.html" style="color:#277C7A;font-weight:600;">Verilerimi Sil</a> sayfasına bakın.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">MigSense Pro aboneliğimi nasıl iptal ederim?</p>
+            <p>App Store uygulamasını açın &gt; profil simgenize dokunun &gt; Abonelikler &gt; MigSense &gt; Aboneliği İptal Et. Uygulama verilerinizi silmek aboneliğinizi iptal etmez.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Apple Watch ve widget'lar nasıl çalışır?</p>
+            <p>Apple Watch uygulaması ve ana ekran widget'ları, iPhone'unuzla aynı cihaz grubu içinde (App Group) yerel olarak veri paylaşır; bu paylaşım cihazlarınızın dışına çıkmaz.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Bildirimleri nasıl ayarlarım?</p>
+            <p>Ayarlar &gt; Bildirimler bölümünden haftalık/aylık özetleri, ilaç hatırlatıcılarını, erken uyarı bildirimlerini ve günlük durum sorularını açıp kapatabilir, saatlerini değiştirebilirsiniz.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">MigSense bana tıbbi tavsiye veriyor mu?</p>
+            <p>Hayır. MigSense yalnızca kayıtlarınızdaki örüntüleri göstermek için tasarlanmış bir takip aracıdır; tıbbi tanı, tedavi veya profesyonel sağlık tavsiyesi sunmaz. Sağlığınızla ilgili kararlar için lütfen bir doktora danışın.</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="contact-box">
+            <p><strong>Sorunuz burada yok mu?</strong></p>
+            <p>Doğrudan bize yazın, elimizden geldiğince hızlı dönüş yapalım.</p>
+            <a href="mailto:cemalefeyilmaz@gmail.com">✉️ cemalefeyilmaz@gmail.com</a>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 MigSense. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+</body>
+</html>

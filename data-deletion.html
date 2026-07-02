@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verilerimi Sil - MigSense</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #277C7A 0%, #1B5957 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: #277C7A;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95em;
+            margin-bottom: 32px;
+        }
+
+        .back-link:hover { opacity: 0.75; }
+
+        h1 {
+            color: #1A1A1A;
+            font-size: 2.2em;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .updated {
+            color: #999;
+            font-size: 0.9em;
+            margin-bottom: 36px;
+        }
+
+        h2 {
+            color: #277C7A;
+            font-size: 1.1em;
+            font-weight: 700;
+            margin: 28px 0 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        p, li {
+            color: #555;
+            font-size: 1em;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+
+        ul, ol { padding-left: 20px; margin-bottom: 10px; }
+
+        .divider { height: 1px; background: #eee; margin: 36px 0; }
+
+        .footer { color: #999; font-size: 0.9em; text-align: center; margin-top: 40px; }
+
+        .steps {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 16px 0;
+        }
+        .steps li { margin-bottom: 8px; }
+
+        @media (max-width: 600px) {
+            .container { padding: 40px 25px; }
+            h1 { font-size: 1.8em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← MigSense'e Dön</a>
+
+        <h1>🗑️ Verilerimi Sil</h1>
+        <p class="updated">Son güncelleme: 2 Temmuz 2026</p>
+
+        <p>MigSense hesap oluşturmanızı gerektirmez, bu yüzden geleneksel anlamda "silinecek bir hesap" yoktur. Bunun yerine, cihazınızda (ve senkronizasyon açıksa kendi özel iCloud'unuzda) tuttuğumuz tüm takip verilerini istediğiniz zaman uygulama içinden kalıcı olarak silebilirsiniz.</p>
+
+        <div class="divider"></div>
+
+        <h2>Uygulama İçinden Silme</h2>
+        <p>Verilerinizi silmek için:</p>
+        <ol class="steps">
+            <li>MigSense'i açın</li>
+            <li><strong>Ayarlar</strong> sekmesine gidin</li>
+            <li>Gizlilik bölümünde <strong>"Verilerimi Sil"</strong> seçeneğine dokunun</li>
+            <li>Onay penceresinde silme işlemini onaylayın</li>
+        </ol>
+
+        <h2>Neler Silinir?</h2>
+        <ul>
+            <li>Tüm atak kayıtlarınız (başlangıç/bitiş zamanı, şiddet, semptomlar, tetikleyiciler, notlar)</li>
+            <li>Atak kayıtlarına bağlı hava durumu ve Apple Health anlık görüntüleri</li>
+            <li>İlaç kullanım kayıtlarınız</li>
+            <li>Günlük durum kontrolleriniz (check-in)</li>
+            <li>Engellilik/etki değerlendirmeleriniz</li>
+            <li>Yapay zeka sohbet geçmişiniz ve önbelleğe alınmış içgörüler</li>
+        </ul>
+        <p>iCloud senkronizasyonu açıksa bu silme işlemi, kendi özel iCloud veritabanınıza da yansır.</p>
+
+        <h2>Neler Korunur?</h2>
+        <p>Uygulamanın silme sonrasında da kullanılabilir kalması için, kendi tanımladığınız <strong>tetikleyici, semptom, rahatlama yöntemi ve ilaç kataloğu</strong> (geçmiş kayıtlar değil, yalnızca isim listeleri) korunur. Bunları Ayarlar üzerinden ayrı ayrı düzenleyebilir veya silebilirsiniz.</p>
+
+        <h2>Uygulamayı Silme</h2>
+        <p>MigSense'i cihazınızdan kaldırmak, yerel kopyayı siler. iCloud senkronizasyonunu daha önce açtıysanız özel iCloud veritabanınızdaki kopyayı ayrıca kaldırmak için: <strong>Ayarlar (iOS) → Apple ID → iCloud → Uygulama Verilerini Yönet</strong> yolunu izleyip MigSense'i seçip verileri silebilirsiniz.</p>
+
+        <h2>Sunucu Tarafındaki Kayıtlar</h2>
+        <p>Yapay zeka özelliklerini kullandıysanız, kotanızı takip edebilmek için anonim bir kullanıcı kimliğiyle ilişkili kullanım kayıtları (örneğin aylık istek sayısı) sunucu tarafında tutulur. Bu kayıtlar kişisel bilginizle ilişkilendirilemez, ancak bunların da silinmesini isterseniz aşağıdaki e-postadan bize ulaşın; talebinizi işleme alabilmemiz için elinizdeki bilgileri (yaklaşık kullanım tarihi, cihaz/platform) paylaşmanız yeterlidir.</p>
+
+        <h2>Aboneliğinizi Unutmayın</h2>
+        <p>Verilerinizi silmek, aktif bir MigSense Pro aboneliğini iptal etmez. Aboneliğinizi iptal etmek için: <strong>App Store → Profil → Abonelikler → MigSense → Aboneliği İptal Et.</strong></p>
+
+        <div class="divider"></div>
+
+        <h2>Yardıma mı İhtiyacınız Var?</h2>
+        <p>Silme işlemiyle ilgili herhangi bir sorunla karşılaşırsanız bize ulaşın:</p>
+        <p><strong>E-posta:</strong> <a href="mailto:cemalefeyilmaz@gmail.com" style="color:#277C7A;">cemalefeyilmaz@gmail.com</a></p>
+
+        <div class="footer">
+            <p>© 2026 MigSense. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+</body>
+</html>

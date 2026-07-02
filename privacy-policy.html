@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizlilik Politikası - MigSense</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #277C7A 0%, #1B5957 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: #277C7A;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95em;
+            margin-bottom: 32px;
+        }
+
+        .back-link:hover { opacity: 0.75; }
+
+        h1 {
+            color: #1A1A1A;
+            font-size: 2.2em;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .updated {
+            color: #999;
+            font-size: 0.9em;
+            margin-bottom: 36px;
+        }
+
+        h2 {
+            color: #277C7A;
+            font-size: 1.1em;
+            font-weight: 700;
+            margin: 28px 0 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        p, li {
+            color: #555;
+            font-size: 1em;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+
+        ul { padding-left: 20px; margin-bottom: 10px; }
+
+        .divider { height: 1px; background: #eee; margin: 36px 0; }
+
+        .footer { color: #999; font-size: 0.9em; text-align: center; margin-top: 40px; }
+
+        @media (max-width: 600px) {
+            .container { padding: 40px 25px; }
+            h1 { font-size: 1.8em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← MigSense'e Dön</a>
+
+        <h1>📄 Gizlilik Politikası</h1>
+        <p class="updated">Son güncelleme: 2 Temmuz 2026</p>
+
+        <p>MigSense'e hoş geldiniz. Bu uygulama, migren ve baş ağrısı ataklarınızı takip etmenize, tetikleyicilerinizi anlamanıza yardımcı olan bir veri takip ve analiz aracıdır — tıbbi tanı veya tedavi hizmeti sunmaz. Bu Gizlilik Politikası, MigSense'i kullanırken hangi bilgilerin toplandığını, nasıl kullanıldığını ve nasıl korunduğunu açıklar.</p>
+
+        <div class="divider"></div>
+
+        <h2>1. Hesap Gerekmez</h2>
+        <p>MigSense'te e-posta, şifre veya sosyal hesapla giriş yoktur. Tüm atak, semptom, tetikleyici ve ilaç kayıtlarınız doğrudan cihazınızda saklanır. iCloud senkronizasyonunu açarsanız bu veriler yalnızca <strong>sizin kendi özel iCloud hesabınıza</strong> yedeklenir ve diğer cihazlarınızla senkronize edilir — MigSense'in kendi sunucularına gitmez.</p>
+
+        <h2>2. Topladığımız Bilgiler</h2>
+        <p>MigSense'i kullanırken aşağıdaki bilgiler işlenebilir:</p>
+        <ul>
+            <li><strong>Atak kayıtları:</strong> Başlangıç/bitiş zamanı, şiddet, semptomlar, tetikleyiciler, rahatlama yöntemleri, ilaç kullanımı ve notlarınız.</li>
+            <li><strong>Apple Health verileri (izin verirseniz):</strong> Uyku süresi, kalp atış hızı, kalp hızı değişkenliği (HRV), solunum hızı, kan oksijeni, vücut sıcaklığı, adım sayısı, aktif enerji, antrenmanlar, farkındalık (mindfulness) dakikaları, kafein ve su alımı, döngü fazı bilgisi. Bu veriler yalnızca atak örüntülerinizi size göstermek için okunur; ayrıca kaydettiğiniz atakları isterseniz Apple Health'e geri yazabiliriz.</li>
+            <li><strong>Konum ve hava durumu:</strong> Atak anındaki barometrik basınç ve hava durumu verilerini gösterebilmek için, izin verdiğinizde yalnızca "uygulamayı kullanırken" konumunuz kullanılır. Arka planda konum takibi yapılmaz.</li>
+            <li><strong>Ses ve konuşma tanıma:</strong> Atağınızı sesli anlatmayı tercih ederseniz, ses cihazınızdan hiç çıkmaz — konuşma metne cihaz üzerinde (on-device) çevrilir. Yalnızca ortaya çıkan yazılı metin, siz "analiz et" dediğinizde işlenir.</li>
+            <li><strong>Yapay zeka (AI) kullanım verisi:</strong> İçgörü, sohbet, doktor notu hazırlama veya erken uyarı özelliklerini kullanırsanız, kayıtlarınızın kimliksizleştirilmiş bir özeti işlenir (bkz. Bölüm 3).</li>
+            <li><strong>Abonelik durumu:</strong> MigSense Pro aboneliğiniz olup olmadığı, RevenueCat ve App Store üzerinden anonim bir kullanıcı kimliğiyle yönetilir.</li>
+            <li><strong>Bildirim belirteci:</strong> Hatırlatıcı bildirimlerine izin verirseniz, cihazınıza bildirim gönderebilmek için bir bildirim belirteci (token) kullanılabilir. Bu belirteç kişisel bilginizle değil, geri döndürülemez şekilde karma (hash) haline getirilmiş bir kimlikle ilişkilendirilir.</li>
+        </ul>
+
+        <h2>3. Yapay Zeka Analizi</h2>
+        <p>MigSense Pro'da isteğe bağlı yapay zeka özellikleri (içgörüler, sohbet, doktor notu hazırlama, erken uyarı, sesli anlatımdan atak çıkarma) bulunur. Bu özellikleri kullandığınızda:</p>
+        <ul>
+            <li>Atak kayıtlarınızın <strong>kimliksizleştirilmiş</strong> bir özeti (isim/kimlik yerine tek yönlü karma değerler, göreli tarihler, sayısal semptom/tetikleyici/basınç/uyku değerleri) bir Supabase sunucu fonksiyonuna gönderilir.</li>
+            <li>Bu fonksiyon, öneri üretmek için Google Gemini yapay zeka modelini çağırır.</li>
+            <li>Ham Apple Health örnekleriniz, ham konum verisi veya ses kaydınız hiçbir zaman bu isteklere dahil edilmez — yalnızca sayısal/özet değerler gönderilir.</li>
+            <li>Analiz yalnızca siz özelliği kullandığınızda başlar; otomatik veya arka planda çalışmaz.</li>
+            <li>Kullanım kotanızı takip edebilmek için istekle birlikte RevenueCat tarafından atanan anonim bir kullanıcı kimliği gönderilir.</li>
+        </ul>
+        <p><strong>Önemli:</strong> Yapay zeka çıktıları yalnızca bilgilendirme amaçlıdır, tıbbi tavsiye, tanı veya tedavi yerine geçmez. Sağlık kararlarınız için her zaman bir doktora danışın.</p>
+
+        <h2>4. Üçüncü Taraf Hizmetler</h2>
+        <p>MigSense, hizmeti sağlayabilmek için aşağıdaki üçüncü taraf hizmetleri kullanır; her birinin kendi gizlilik politikası vardır:</p>
+        <ul>
+            <li><strong>Apple HealthKit</strong> — İzninizle sağlık/aktivite verilerini okuma ve atak kayıtlarını yazma (apple.com/legal/privacy)</li>
+            <li><strong>Apple WeatherKit</strong> — Atak anındaki hava durumu/basınç verisi (apple.com/legal/privacy)</li>
+            <li><strong>Apple iCloud (CloudKit)</strong> — İsteğe bağlı, yalnızca sizin kendi özel iCloud hesabınızda cihazlar arası senkronizasyon (apple.com/legal/privacy)</li>
+            <li><strong>Supabase</strong> — Yapay zeka isteklerini yöneten sunucu fonksiyonları ve bildirim belirteci depolama (supabase.com/privacy)</li>
+            <li><strong>Google Gemini API</strong> — Kimliksizleştirilmiş veri üzerinden yapay zeka içgörü/öneri üretimi (policies.google.com/privacy)</li>
+            <li><strong>RevenueCat</strong> — Abonelik ve satın alma yönetimi (revenuecat.com/privacy)</li>
+            <li><strong>Apple Push Bildirim Servisi (APNs)</strong> — Hatırlatıcı bildirimleri iletme (apple.com/legal/privacy)</li>
+        </ul>
+
+        <h2>5. Veri Depolama &amp; Güvenlik</h2>
+        <p>Atak, semptom, tetikleyici ve ilaç verileriniz öncelikli olarak cihazınızda saklanır. iCloud senkronizasyonu açıksa bu veriler yalnızca sizin özel iCloud veritabanınızda tutulur; MigSense'in kendi sunucusunda kişisel sağlık kaydınızın bir kopyası bulunmaz. Yapay zeka isteklerine ait kimliksizleştirilmiş veriler ve bildirim belirteçleri, erişim kısıtlı sunucu altyapısında saklanır. Tüm ağ trafiği HTTPS ile şifrelenir.</p>
+
+        <h2>6. Veri Paylaşımı</h2>
+        <p>Kişisel verilerinizi satmıyor, kiralamıyor veya pazarlama amacıyla üçüncü taraflarla paylaşmıyoruz. Veriler yalnızca yukarıda listelenen hizmet sağlayıcılarla, MigSense'i çalıştırmak, aboneliğinizi yönetmek, bildirim göndermek, istediğiniz yapay zeka analizini sağlamak ve güvenliği korumak için gereken ölçüde paylaşılır.</p>
+
+        <h2>7. Haklarınız</h2>
+        <p>Aşağıdaki haklara sahipsiniz:</p>
+        <ul>
+            <li>Cihazınızda ve iCloud'unuzda tuttuğumuz verilere erişme (Uygulama içinde her zaman görünür)</li>
+            <li>Hatalı verileri düzeltme veya silme</li>
+            <li>Tüm takip verilerinizi tek dokunuşla silme</li>
+            <li>Yapay zeka özelliklerini hiç kullanmama</li>
+        </ul>
+        <p>Verilerinizi nasıl sileceğinizi öğrenmek için <a href="data-deletion.html" style="color:#277C7A;font-weight:600;">Verilerimi Sil</a> sayfasına bakın veya aşağıdaki e-postadan bize ulaşın.</p>
+
+        <h2>8. Çocukların Gizliliği</h2>
+        <p>MigSense çocuklara yönelik değildir ve 17 yaş altındaki kullanıcılardan bilerek veri toplamaz. Bir çocuğun bize veri sağladığını düşünüyorsanız lütfen bizimle iletişime geçin.</p>
+
+        <h2>9. Bu Politikadaki Değişiklikler</h2>
+        <p>Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikleri bu sayfanın üstündeki tarihi güncelleyerek bildiririz. Değişikliklerden sonra uygulamayı kullanmaya devam etmeniz, güncellenmiş politikayı kabul ettiğiniz anlamına gelir.</p>
+
+        <h2>10. İletişim</h2>
+        <p>Bu Gizlilik Politikası hakkında sorularınız için bize ulaşın:</p>
+        <p><strong>E-posta:</strong> <a href="mailto:cemalefeyilmaz@gmail.com" style="color:#277C7A;">cemalefeyilmaz@gmail.com</a></p>
+
+        <div class="footer">
+            <p>© 2026 MigSense. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+</body>
+</html>

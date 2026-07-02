@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MigSense - Migren Takibi &amp; Örüntü Analizi</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #277C7A 0%, #1B5957 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+
+        .hero { margin-bottom: 50px; }
+
+        h1 {
+            color: #1A1A1A;
+            font-size: 3em;
+            margin-bottom: 15px;
+            letter-spacing: -1px;
+        }
+
+        .tagline {
+            color: #277C7A;
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .description {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .divider {
+            height: 1px;
+            background: #eee;
+            margin: 40px 0;
+        }
+
+        .section-title {
+            font-size: 0.9em;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .link-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 20px;
+            background: #f8f9fa;
+            color: #444;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 1em;
+            transition: all 0.2s;
+            border: 1px solid #e9ecef;
+            gap: 10px;
+        }
+
+        .link-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            background: white;
+            border-color: #277C7A;
+            color: #277C7A;
+        }
+
+        .footer {
+            margin-top: 50px;
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 40px 25px; }
+            h1 { font-size: 2.2em; }
+            .links-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>🧠 MigSense</h1>
+            <p class="tagline">Migren Takibi &amp; Örüntü Analizi</p>
+            <p class="description">
+                Ataklarınızı, tetikleyicilerinizi ve ilaçlarınızı kolayca kaydedin; hava durumu ve Apple Health verileriyle birleştirerek kişisel örüntülerinizi görün. Tüm veriler cihazınızda ve kendi özel iCloud hesabınızda kalır — hesap oluşturmanıza gerek yoktur.
+            </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div>
+            <p class="section-title">Kaynaklar &amp; Destek</p>
+            <div class="links-grid">
+                <a href="support.html" class="link-button">💬 Destek</a>
+                <a href="privacy-policy.html" class="link-button">📄 Gizlilik Politikası</a>
+                <a href="terms-of-service.html" class="link-button">📋 Kullanım Koşulları</a>
+                <a href="data-deletion.html" class="link-button">🗑️ Verilerimi Sil</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 MigSense. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+</body>
+</html>
